@@ -1,0 +1,19 @@
+/* MAX WIDTH: 640px */
+@media (max-width: 640px) {
+  .advice {
+    background-color: var(--color-dark-grayish-blue);
+    width: 90%;
+  }
+}
+
+/* MAX WIDTH: 380px */
+@media (max-width: 380px) {
+  .advice blockquote {
+    color: var(--color-light-cyan);
+    font-size: 2rem;
+    line-height: 1.6;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+}
